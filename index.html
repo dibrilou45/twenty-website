@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty - vers plus d'efficacité</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="images/favicon/favicon.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome all css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- iziModal css -->
+    <link rel="stylesheet" href="css/iziModal.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- slicknav css -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- Header area start -->
+    <header  class="header-area">
+        <div class="header-container">
+            <div class="row">
+                <div class="col-lg-3 header-col3">
+                    <div class="logo-area">
+                        <a href="#">
+                            <h2>
+                                <img src="images/logo.png" alt="header-logo">
+                            </h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 main-menu">
+                    <div class="navigation-area">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#services">Nos services</a></li>
+                                <li><a href="#about">Pourquoi nous?</a></li>
+                                <li><a href="#testimonial">Nos consultants</a></li>
+                             <!--    <li><a href="#pricing">Nos prix</a></li> -->
+                                <li class="boxed-btn popup-form"><a>Obtenir un devis gratuit</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header area End -->
+    
+    <!-- Hero area start -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 hero-col6">
+                    <div class="hero-content">
+                        <h1>Accélérer vos développements</h1>
+                        <form action="#">
+                            <input type="text" required placeholder="Votre mail">
+                            <button type="submit">Se faire contacter</button>
+                        </form>
+                        <p>Les projets ambitieux nécessitent les bons partenaires. Faites confiance à Twenty pour délivrer vos projets de manière efficace.</p>
+                        <div class="hero-btn">
+                            <ul>
+                                <!--<li><a href="#">Get Started</a></li> -->
+                                <li><a href="#">En apprendre plus</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="images/hero-img.png" alt="hero-img">
+        </div>
+    </section>
+    <!-- Hero area End -->
+
+    <!-- form area start -->
+    <section class="form-area" id="popup-form-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 form">
+                    <span class="close-form"><i class="fas fa-times"></i></span>
+                    <h2>Contactez-nous</h2>
+                    <form id="contact-form" class="atf-contact-form" method="POST" action="php/mail.php">
+                        <div class="col-lg-6 input-col6">
+                            <input type="text" placeholder="Nom complet*" id="name" name="name" required="">
+                        </div>
+                        <div class="col-lg-6 input-col6">
+                             <input type="email" id="email" name="email" placeholder="Adresse mail*" required="">
+                        </div>
+                        <div class="col-lg-12 input-col12">
+                           <input type="text" placeholder="Sujet*" id="subject" name="subject" required="">
+                        </div>
+                        <div class="col-lg-12 textarea-col12">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn" type="submit">Envoyer</button>
+                    </form>
+                    <p class="form-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form area End -->
+
+    <!-- debut bande defilante avec la liste des clients -->
+
+
+    <!-- fin bande defilante avec la liste des clients -->
+
+    <!-- services area start -->
+    <section class="service-area" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-heading">
+                        <span><i class="fas fa-cog"></i>Nos services</span>
+                        <h2>Que propose Twenty?</h2>
+                        <p>Notre objectif est d'améliorer la conduite de votre projet en vous proposant des consultants expérimentés qui vont réaliser votre projet, tout en apportant avec nous notre expérience qui permettra de mettre en place un cadre de projet efficace pour livrer un produit qui correspond à votre besoin. Nos sujets de predilections sont autour du <b>développement web</b>, <b> data </b>, <b>l'intelligence artificielle</b>, <b>blockchain</b> et le <b>cloud</b>. <br><br>#javascript #react #vue.js #python #wordpress #excel #VBA #solidity #AWS #GCP #Azure #...</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-service-item service-item1">
+                        <img src="images/service1.png" alt="service1">
+                        <h4>Nous créons votre produit</h4>
+                        <p>Twenty vous accompagne sur le dévelopement de vos projets d'application web ou mobile de manière effective en se concentrant sur l'essentiel pour aller plus vite.</p>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-service-item single-service">
+                        <img src="images/service2.png" alt="service2">
+                        <h4>Nous vous donnons accès à des consultants expérimentés</h4>
+                        <p>Twenty vous donne accès aux meilleurs consultants, qui grâce à leurs expériences, ont compris que l'innovation nécessite de s'adapter au changement.  </p>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-service-item service-item3">
+                        <img src="images/service3.png" alt="service3">
+                        <h4>Nous améliorons votre productivité</h4>
+                        <p>Twenty vous accompagne sur la mise en place d'outil augmentant la productivité de vos équipes. </p>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service area End -->
+
+
+    <!-- Milestone area start -->
+ <!--   <section class="milestone-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="milestone-heading">
+                        <span><img src="images/icon2.png" alt="icon2">milestone</span>
+                        <h2>We Have Achieved Some Great </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-milestone-item">
+                        <div class="count">
+                            <span class="counter">250</span><span>+</span>
+                        </div>
+                        <h4>Project Done</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-milestone-item">
+                        <div class="count">
+                            <span class="counter">120</span><span>+</span>
+                        </div>
+                        <h4>Award win</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-milestone-item">
+                        <div class="count">
+                            <span class="counter">220</span><span>+</span>
+                        </div>
+                        <h4>Positive Rewiew</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-milestone-item milestone-item">
+                        <div class="count">
+                            <span class="counter">140</span><span>+</span>
+                        </div>
+                        <h4>Happy Clients</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>                      -->
+    <!-- Milestone area End --> 
+
+    <!-- agency area start -->
+    <section class="agency-area" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 agency-col7">
+                    <div class="agency-heading">
+                        <h5><img src="images/icon3.png" alt="icon3">Pourquoi nous?</h5>
+                        <h2>Il existe de nombreuses agences <span>Mais pourquoi choisir Twenty ?</span></h2>
+                      <!--   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                        --> 
+                    <div class="single-agency-item">
+                        <div class="img">
+                            <img src="images/icon4.png" alt="icon4">
+                        </div>
+                        <div class="agency-details">
+                            <h4>Efficacité </h4>
+                            <p>Twenty vous propose de mettre en place un cadre de travail et une stratégie visant à se concentrer sur l'essentiel vous permet d'optimiser les temps de développement de vos produits.</p>
+                        </div>
+                    </div>
+                    <div class="single-agency-item">
+                        <div class="img">
+                            <img src="images/icon5.png" alt="icon5">
+                        </div>
+                        <div class="agency-details">
+                            <h4>Flexibilité</h4>
+                            <p>Twenty vous permet d'établir selon vos besoins et votre budget la stratégie qui vous permettra de livrer votre solution de la manière la plus efficace, contactez nous pour un devis.</p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="single-agency-item">
+                        <div class="img">
+                            <img src="images/icon6.png" alt="icon6">
+                        </div>
+                        <div class="agency-details">
+                            <h4>24/7 Support</h4>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="agency-img">
+            <div class="col-lg-12">
+                <div class="img">
+                    <img src="images/vector.png" alt="vector">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- agency area End -->
+
+    <!-- Testimonial area start -->
+    <!--
+    <section class="testimonial-area" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial-heading">
+                        <span><img src="images/icon7.png" alt="icon7"> Nos consultants</span>
+                        <h2>Des consultants expérimentés</h2>
+                        <p>Lancez vos projets avec des consultants expérimentés et avec un mindset agile grâce à Twenty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+    <!-- 
+        <div class="container slider">
+            <div class="row">
+                 
+                <div class="col-lg-5 testimonial-col5">
+                    <div class="testimonial-img">
+                        <img src="images/testimonial-img.png" alt="testimonial-img">
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 owl-carousel">
+                    <div class="single-testimonial-item">
+                        <div class="shado">
+                            <div class="review">
+                                <p>" Je peux vous accompagner dans la <b>mise en place d'un cadre agile</b> pensé pour votre organisation. J'ai pu mettre en place mon expertise chez des grands groupes tels que <b>Air Liquide et Allianz</b> et dans plusieurs startups. "</p> 
+
+                                <h6>#Agilité</h6>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="person-details">
+                            <div class="review-person">
+                                <img src="images/man1.png" alt="man1">
+                            </div>
+                            <div class="person-position">
+                                <h4>Dibrilou Twenty</h4>
+                                <span>Consultant agile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <div class="shado">
+                            <div class="review">
+                                <p>" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. "</p>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="review-person">
+                                <img src="images/man2.png" alt="man2">
+                            </div>
+                            <div class="person-position">
+                                <h4>Johan Deo</h4>
+                                <span>Designer, Company</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <div class="shado">
+                            <div class="review">
+                                <p>" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. "</p>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="review-person">
+                                <img src="images/man3.png" alt="man3">
+                            </div>
+                            <div class="person-position">
+                                <h4>Rita Merris</h4>
+                                <span>COO, Company</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- testimonial area End -->
+
+
+    <!-- pricing area start -->
+    <!-- 
+    <section class="pricing-area" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="pricing-heading">
+                        <span><img src="images/icon3.png" alt="icon3"> Pricing</span>
+                        <h2>See Our Flexible Pricing </h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                    <div class="pricing-table clearfix">
+                        <div class="pricing-table-2">
+                            <span>try it</span>
+                            <h4>pro</h4>
+                            <ul>
+                                <li><i class="fas fa-check-square"></i>Impression Increase - 8%</li>
+                                <li><i class="fas fa-check-square"></i>Increase Traffic - 70%</li>
+                                <li><i class="fas fa-check-square"></i>Services Boosts - 15 days</li>
+                                <li><i class="fas fa-check-square"></i>Rank Suggest Link - 60%</li>
+                                <li><i class="fas fa-check-square"></i>Link Building</li>
+                                <li><i class="fas fa-check-square"></i>24/7 Support </li>
+                            </ul>
+                            <p>$25</p>
+                            <div class="price-btn">
+                                <a class="btn" href="#">buy now</a>
+                            </div>
+                        </div>
+                        <div class="pricing-table-1">
+                            <span>RECOMMENDED</span>
+                            <h4>pro</h4>
+                            <ul>
+                                <li><i class="fas fa-check-square"></i>Impression Increase - 8%</li>
+                                <li><i class="fas fa-check-square"></i>Increase Traffic - 70%</li>
+                                <li><i class="fas fa-check-square"></i>Services Boosts - 15 days</li>
+                                <li><i class="fas fa-check-square"></i>Rank Suggest Link - 60%</li>
+                                <li><i class="fas fa-check-square"></i>Link Building</li>
+                                <li><i class="fas fa-check-square"></i>24/7 Support </li>
+                            </ul>
+                            <p>$30</p>
+                            <div class="price-btn">
+                                <a class="btn" href="#">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                </div>
+            </div>
+        </div>
+        
+        <div class="pricing-img">
+            <div class="col-lg-12 pricing-col">
+                <div class="img">
+                    <img src="images/pricing-img.png" alt="pricing-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- pricing area End -->
+
+    <!-- Footer area start -->
+    <footer class="footer-area">
+        <div class="footer-shape"></div>
+        <div class="container">
+            <div class="row subscribe-area">
+                <div class="col-lg-5">
+                    <div class="subscribe-details">
+                        <h2>Vous voulez plus d'informations ?</h2>
+                        <span>Nous vous recontactons</span>
+                        <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
+                    </div>
+                </div>
+                <div class="col-lg-7 footer-form">
+                    <div class="form-area">
+                        <form action="#">
+                            <input type="text" required placeholder="votre adresse mail">
+                            <button class="btn" type="submit">se faire contacter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-menu">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-footer-item">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="images/footer-logo.png" alt="footer-logo">
+                            </a>
+                        </div>
+                        <p>Vous permettre de réaliser vos projets en vous concentrant sur l'essentiel c'est notre objectif.</p>
+                        <div class="footer-social">
+                            <ul>
+                             <!--    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>-->
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-item">
+                        <h4>links</h4>
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Project Overview</a></li>
+                            <li><a href="#">Experience Team</a></li>
+                            <li><a href="#">What Our Client Say</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-item">
+                        <h4>support</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">How it Work</a></li>
+                            <li><a href="#">Testimonial</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Free Quote</a></li>
+                        </ul>
+                    </div>
+                </div>
+                -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-footer-item contact">
+                        <h4>contact</h4>
+                        <ul>
+                            <li><a href="tel:12123456789"> 06 34 42 50 56</a></li>
+                            <li><a href="mailto:info@compamy.com">contact@twenty-consulting.com</a></li>
+                           <!-- <li><a href="mailto:services@company.com">services@company.com</a></li>  -->
+                            <li><a href="#">38 rue des mathurins 75008, Paris</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row footer-section">
+                    <div class="col-lg-12">
+                        <p>&copy; Tous droits réservés @Twenty 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area End -->
+
+    <!--=================JS Start===================-->
+    <!-- jquery js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- popper min js -->
+    <script src="js/popper.min.js"></script>
+    <!-- carousel min js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- sticky js -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- slicknav min js -->
+    <script src="js/jquery.slicknav.min.js"></script>
+    <!-- iziModal min  js -->
+    <script src="js/iziModal.min.js"></script>
+    <!-- bootstrap min js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ajaxchimp js -->
+    <script src="js/ajaxchimp.min.js"></script>
+    <!-- form-contact js -->
+    <script src="js/form-contact.js"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!--=================Js End===================-->
+</body>
+
+</html>
